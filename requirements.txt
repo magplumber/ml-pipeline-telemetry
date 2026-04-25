@@ -1,0 +1,7 @@
+# Minimal Python runtime dependencies for telemetry_tui.py
+#
+# System-level CLI tools are required separately (not pip packages):
+# - nvidia-smi (NVIDIA)
+# - rocm-smi (ROCm)
+
+psutil>=5.9,<7
